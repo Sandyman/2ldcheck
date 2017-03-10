@@ -1,7 +1,7 @@
 # 2ldcheck
 
 This module does a simple check to see whether a domain name, like some.site.com.au, is a second level domain. Second
-level domains are of the form '*.co.uk', or '*.com.au'.
+level domains are of the form '\*.co.uk', or '\*.com.au'.
 
 # Usage
 
