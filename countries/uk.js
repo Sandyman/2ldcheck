@@ -11,5 +11,5 @@ module.exports = [
     'net',
     'org',
     'plc',
-    'sch',
+    'sch'
 ];
