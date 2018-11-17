@@ -1,6 +1,6 @@
 {
-  "name": "2ldcheck",
-  "version": "0.0.3",
+  "name": "@webful/2ldcheck",
+  "version": "0.0.1",
   "description": "Check whether a domain (a string) is a second level domain",
   "main": "index.js",
   "scripts": {
