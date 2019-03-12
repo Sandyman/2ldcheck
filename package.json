@@ -1,6 +1,6 @@
 {
   "name": "2ldcheck",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Check whether a domain (a string) is a second level domain",
   "main": "index.js",
   "scripts": {
