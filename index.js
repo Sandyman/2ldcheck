@@ -19,14 +19,6 @@ let slds = {
 module.exports = (domain_name) => {
     // Convert a.b.c.d => ['d', 'c'] (only interested in last two elements in reverse order)
     const niamod = domain_name.split('.').reverse().splice(0, 2);
-    let found = false;
     const sld = slds[niamod[0]];
-    if (sld !== undefined) {
-        const N = sld.length;
-        let i = 0;
-        do {
-            found = niamod[1] === sld[i++];
-        } while (!found && i < N);
-    }
-    return !!found;
-};
+    return !!sld && sld.indexOf(niamod[1]) >= 0;
+}
