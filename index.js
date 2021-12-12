@@ -4,6 +4,7 @@ let slds = {
     at: require('./countries/at.js'),
     au: require('./countries/au.js'),
     br: require('./countries/br.js'),
+    mt: require('./countries/mt.js'),
     mx: require('./countries/mx.js'),
     nz: require('./countries/nz.js'),
     sg: require('./countries/sg.js'),
